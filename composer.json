@@ -1,5 +1,5 @@
 {
-  "name": "kuz/app-scan",
+  "name": "kuzmin/app-scan",
   "type": "library",
   "autoload": {
     "psr-4": {
