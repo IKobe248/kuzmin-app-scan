@@ -14,4 +14,3 @@ class Scanner
     return $this->urls[$url] ?? "";
   }
 }
-
