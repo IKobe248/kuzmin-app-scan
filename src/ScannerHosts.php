@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace IKobe248\UrlTester;
+namespace Kuz\ScanApp;
 
-class ScannerHosts
+class Scanner
 {
   private $urls;
   private $httpClient;
 
-  public function __construct(array $urls)
+  public function getString(string $url): string
   {
-    $this->urls = $urls;
-    $this->httpClient = new GuzzleHttp\Client();
+    return $this->urls[$url] ?? "";
   }
 }
+
